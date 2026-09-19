@@ -1,0 +1,28 @@
+# === Directories ===
+cache/
+coverage/
+node_modules/
+out/
+
+# === Hardhat (optional dual-setup) ===
+artifacts/
+cache_hardhat/
+typechain-types/
+
+# === Files ===
+*.env
+*.log
+.DS_Store
+.pnp.*
+lcov.info
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# === Broadcasts ===
+# Keep the broadcast directory structure but ignore run logs
+# If you want to commit deployment history, comment out below
+!broadcast/
+broadcast/*/
+broadcast/*/31337/
+broadcast/*/2517/
